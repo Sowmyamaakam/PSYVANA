@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_purple">#8B5CF6</color>
+    <color name="primary_purple_dark">#7C3AED</color>
+    <color name="card_background">#FEFEFE</color>
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_hint">#9CA3AF</color>
+    <color name="input_background">#F9FAFB</color>
+    <color name="input_border">#E5E7EB</color>
+    <color name="gradient_start">#EDE9FE</color>
+    <color name="gradient_middle">#DBEAFE</color>
+    <color name="gradient_end">#ECFDF5</color>
+
+    <!-- New colors for home screen cards -->
+    <color name="assessment_purple">#A855F7</color>
+    <color name="progress_blue">#3B82F6</color>
+    <color name="recommendations_green">#10B981</color>
+    <color name="help_teal">#14B8A6</color>
+
+        <!-- Purple colors -->
+    <color name="purple_700">#7B1FA2</color>
+    <color name="purple_800">#6A1B9A</color>
+    <color name="purple_600">#7B1FA2</color>
+
+            <!-- Teal colors -->
+    <color name="teal_50">#E0F2F1</color>
+    <color name="teal_500">#009688</color>
+    <color name="teal_600">#00897B</color>
+
+            <!-- Gray colors -->
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_600">#757575</color>
+    <color name="gray_700">#616161</color>
+    <color name="gray_800">#424242</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_400">#BDBDBD</color>
+
+    <!-- Green colors -->
+    <color name="green_600">#43A047</color>
+
+            <!-- Blue colors -->
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_600">#1E88E5</color>
+
+            <!-- Yellow colors -->
+    <color name="yellow_500">#FFC107</color>
+
+            <!-- Additional colors you might need -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="results_header">Your Assessment Results</string>
+    <string name="depression_score">Depression Score</string>
+    <string name="anxiety_score">Anxiety Score</string>
+    <string name="stress_score">Stress Score</string>
+    <string name="overall_severity">Overall Severity</string>
+    <string name="get_ai_recommendations">Get AI Recommendations</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="app_name">Project</string>
+
+</resources>

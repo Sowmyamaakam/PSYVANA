@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Pressed / touched state -->
+    <item android:state_pressed="true">
+        <color android:color="#D3D3D3"/> <!-- light ash color -->
+    </item>
+
+    <!-- Default state -->
+    <item>
+        <color android:color="@color/card_background"/>
+    </item>
+</selector>

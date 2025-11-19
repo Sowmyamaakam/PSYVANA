@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F3FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_back"
+            android:background="@drawable/bg_back_button"
+            android:contentDescription="Back"
+            android:elevation="3dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor Profile"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#1E293B"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modalities"
+            android:textStyle="bold"
+            android:textColor="#475569"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Video"
+                    android:layout_marginEnd="8dp"/>
+                <Switch
+                    android:id="@+id/videoSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Call"
+                    android:layout_marginEnd="8dp"/>
+                <Switch
+                    android:id="@+id/callSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Text"
+                    android:layout_marginEnd="8dp"/>
+                <Switch
+                    android:id="@+id/textSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rates"
+            android:textStyle="bold"
+            android:textColor="@color/gray_800"
+            android:layout_marginTop="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginTop="8dp">
+            <EditText
+                android:id="@+id/rateVideoEdit"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_rounded"
+                android:hint="Video"
+                android:inputType="number"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"/>
+            <Space android:layout_width="8dp" android:layout_height="match_parent"/>
+            <EditText
+                android:id="@+id/rateCallEdit"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_rounded"
+                android:hint="Call"
+                android:inputType="number"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"/>
+            <Space android:layout_width="8dp" android:layout_height="match_parent"/>
+            <EditText
+                android:id="@+id/rateTextEdit"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_rounded"
+                android:hint="Text"
+                android:inputType="number"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+            <EditText
+                android:id="@+id/currencyEdit"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_rounded"
+                android:hint="Currency"
+                android:text="INR"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"/>
+            <Space android:layout_width="8dp" android:layout_height="match_parent"/>
+            <EditText
+                android:id="@+id/timezoneEdit"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_rounded"
+                android:hint="Timezone"
+                android:text="Asia/Kolkata"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weekly Availability (HH:mm)"
+            android:textStyle="bold"
+            android:textColor="@color/gray_800"
+            android:layout_marginTop="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="8dp">
+                <TextView android:layout_width="64dp" android:layout_height="wrap_content" android:text="Mon"/>
+                <EditText android:id="@+id/monStart" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:background="@drawable/edittext_rounded" android:hint="09:00" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+                <Space android:layout_width="8dp" android:layout_height="match_parent"/>
+                <EditText android:id="@+id/monEnd" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:background="@drawable/edittext_rounded" android:hint="17:00" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="64dp" android:layout_height="wrap_content" android:text="Tue"/>
+                <EditText android:id="@+id/tueStart" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:background="@drawable/edittext_rounded" android:hint="09:00" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+                <Space android:layout_width="8dp" android:layout_height="match_parent"/>
+                <EditText android:id="@+id/tueEnd" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:background="@drawable/edittext_rounded" android:hint="17:00" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="64dp" android:layout_height="wrap_content" android:text="Wed"/>
+                <EditText android:id="@+id/wedStart" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:background="@drawable/edittext_rounded" android:hint="09:00" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+                <Space android:layout_width="8dp" android:layout_height="match_parent"/>
+                <EditText android:id="@+id/wedEnd" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:background="@drawable/edittext_rounded" android:hint="17:00" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="64dp" android:layout_height="wrap_content" android:text="Thu"/>
+                <EditText android:id="@+id/thuStart" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:background="@drawable/edittext_rounded" android:hint="09:00" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+                <Space android:layout_width="8dp" android:layout_height="match_parent"/>
+                <EditText android:id="@+id/thuEnd" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:background="@drawable/edittext_rounded" android:hint="17:00" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="64dp" android:layout_height="wrap_content" android:text="Fri"/>
+                <EditText android:id="@+id/friStart" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:background="@drawable/edittext_rounded" android:hint="09:00" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+                <Space android:layout_width="8dp" android:layout_height="match_parent"/>
+                <EditText android:id="@+id/friEnd" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:background="@drawable/edittext_rounded" android:hint="17:00" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="64dp" android:layout_height="wrap_content" android:text="Sat"/>
+                <EditText android:id="@+id/satStart" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:background="@drawable/edittext_rounded" android:hint="09:00" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+                <Space android:layout_width="8dp" android:layout_height="match_parent"/>
+                <EditText android:id="@+id/satEnd" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:background="@drawable/edittext_rounded" android:hint="17:00" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="64dp" android:layout_height="wrap_content" android:text="Sun"/>
+                <EditText android:id="@+id/sunStart" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:background="@drawable/edittext_rounded" android:hint="09:00" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+                <Space android:layout_width="8dp" android:layout_height="match_parent"/>
+                <EditText android:id="@+id/sunEnd" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:background="@drawable/edittext_rounded" android:hint="17:00" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Save Profile"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/btn_primary_purple"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:layout_marginTop="20dp"
+            android:indeterminateTint="#7C3AED"/>
+
+    </LinearLayout>
+</ScrollView>

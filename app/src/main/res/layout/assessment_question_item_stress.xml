@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    android:backgroundTint="@color/card_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question text here"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Never"
+                android:tag="0"
+                android:textColor="@color/text_primary"
+                android:textSize="15sp"
+                android:paddingVertical="8dp"
+                android:buttonTint="@color/primary_purple" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Almost never"
+                android:tag="1"
+                android:textColor="@color/text_primary"
+                android:textSize="15sp"
+                android:paddingVertical="8dp"
+                android:buttonTint="@color/primary_purple" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sometimes"
+                android:tag="2"
+                android:textColor="@color/text_primary"
+                android:textSize="15sp"
+                android:paddingVertical="8dp"
+                android:buttonTint="@color/primary_purple" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fairly often"
+                android:tag="3"
+                android:textColor="@color/text_primary"
+                android:textSize="15sp"
+                android:paddingVertical="8dp"
+                android:buttonTint="@color/primary_purple" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Very often"
+                android:tag="4"
+                android:textColor="@color/text_primary"
+                android:textSize="15sp"
+                android:paddingVertical="8dp"
+                android:buttonTint="@color/primary_purple" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,111 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FAFB"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Header -->
+        <TextView
+            android:id="@+id/resultsHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/results_header"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#111827"
+            android:padding="12dp" />
+
+        <!-- Depression result -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="12dp">
+
+            <TextView
+                android:id="@+id/depressionResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="@string/depression_score"
+                android:textSize="18sp"
+                android:textColor="#111827" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Anxiety result -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="12dp">
+
+            <TextView
+                android:id="@+id/anxietyResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="@string/anxiety_score"
+                android:textSize="18sp"
+                android:textColor="#111827" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Stress result -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="12dp">
+
+            <TextView
+                android:id="@+id/stressResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="@string/stress_score"
+                android:textSize="18sp"
+                android:textColor="#111827" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Overall severity -->
+        <TextView
+            android:id="@+id/overallSeverityText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/overall_severity"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textColor="#DC2626" />
+
+        <!-- Buttons -->
+        <Button
+            android:id="@+id/getRecommendationsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/get_ai_recommendations"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#3B82F6"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/backHomeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/back_to_home"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#10B981"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

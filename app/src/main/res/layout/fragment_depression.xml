@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/instructionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:background="@drawable/reason_background"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Question 1 -->
+        <include layout="@layout/assessment_question_item"
+            android:id="@+id/question1Container" />
+
+        <!-- Question 2 -->
+        <include layout="@layout/assessment_question_item"
+            android:id="@+id/question2Container" />
+
+        <!-- Question 3 -->
+        <include layout="@layout/assessment_question_item"
+            android:id="@+id/question3Container" />
+
+        <!-- Question 4 -->
+        <include layout="@layout/assessment_question_item"
+            android:id="@+id/question4Container" />
+
+        <!-- Question 5 -->
+        <include layout="@layout/assessment_question_item"
+            android:id="@+id/question5Container" />
+
+        <!-- Question 6 -->
+        <include layout="@layout/assessment_question_item"
+            android:id="@+id/question6Container" />
+
+        <!-- Question 7 -->
+        <include layout="@layout/assessment_question_item"
+            android:id="@+id/question7Container" />
+
+        <!-- Question 8 -->
+        <include layout="@layout/assessment_question_item"
+            android:id="@+id/question8Container" />
+
+        <!-- Question 9 -->
+        <include layout="@layout/assessment_question_item"
+            android:id="@+id/question9Container" />
+
+    </LinearLayout>
+
+</ScrollView>

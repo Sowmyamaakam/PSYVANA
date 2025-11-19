@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Only colors not already defined in colors.xml -->
+    <color name="gray_900">#212121</color>
+    <color name="gray_200">#EEEEEE</color>
+</resources>

@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Smooth teal gradient -->
+    <gradient
+        android:startColor="#00C6A7"
+        android:endColor="#02AABD"
+        android:angle="45" />
+
+    <!-- Rounded corners -->
+    <corners android:radius="32dp" />
+</shape>

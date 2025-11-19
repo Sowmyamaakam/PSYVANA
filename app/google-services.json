@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "792758811361",
+    "project_id": "psyvana1",
+    "storage_bucket": "psyvana1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792758811361:android:a6ef668defbabee78e15a0",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASV9CTDkRaxtZbXHXCfoePj1q-6rDdRWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
