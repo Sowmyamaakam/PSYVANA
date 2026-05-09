@@ -65,7 +65,7 @@ further support. The app is still under development, and new features are being 
 ![Professional](https://github.com/Sowmyamaakam/PSYVANA/blob/f9c7613c3055b885b126d1f8109af0ceeacc7071/References/Professional_Page.png)
 
 ###Recommendation_Activities
-![Recommendation](https://github.com/Sowmyamaakam/PSYVANA/blob/f9c7613c3055b885b126d1f8109af0ceeacc7071/References/Recommendatio_Activites.png)
+![Recommendation](https://github.com/Sowmyamaakam/PSYVANA/blob/f9c7613c3055b885b126d1f8109af0ceeacc7071/References/Recommendation_Activites.png)
 
 ---
 ##  Tech Stack
