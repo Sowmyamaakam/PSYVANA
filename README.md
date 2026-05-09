@@ -6,44 +6,44 @@ further support. The app is still under development, and new features are being 
 
 ---
 
-## ⭐ Features (Implemented)
+## Features (Implemented)
 
-### 📝 Well-Being Assessments
+###  Well-Being Assessments
 - PHQ-9 (Depression)
 - GAD-7 (Anxiety)
 - PSS-10 (Stress)
 - Automatic score calculation
 - Severity classification (Minimal, Mild, Moderate, Severe)
 
-### 🤖 AI-Based Recommendations
+###  AI-Based Recommendations
 - Activity suggestions based on assessment scores
 - Recommendation detail screens
 
-### 📊 Progress Tracking
+###  Progress Tracking
 - Wellness history saved to Firestore
 - Simple bar chart progress visualization
 
-### 👨‍⚕️ Doctor & User Roles
+###  Doctor & User Roles
 - Role selection screen
 - Doctor login/signup
 - User login/signup
 
-### 📅 Appointments
+###  Appointments
 - Book appointments with doctors
 - View upcoming and past appointments
 
-### 💬 Communication
+### Communication
 - Chat messaging
 - Audio calls
 - Video calls using Jitsi SDK
 
-### 🔔 Notifications
+### Notifications
 - Firebase Cloud Messaging (FCM)
 - In-app reminders via AlarmManager
 
 ---
 
-## 🚧 Features in Progress
+## Features in Progress
 
 - Better consultation flow  
 - Improved PDF summary  
@@ -56,7 +56,7 @@ further support. The app is still under development, and new features are being 
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Android Studio (Java / XML)**
 - **Firebase Authentication**
@@ -70,7 +70,7 @@ further support. The app is still under development, and new features are being 
 
 ---
 
-## ▶️ How to Run the App
+##  How to Run the App
 
 1. Clone the project  
 2. Open in Android Studio  
@@ -80,7 +80,7 @@ further support. The app is still under development, and new features are being 
 
 ---
 
-## 👩‍💻 Developer
+##  Developer
 
 **M. Sowmya**  
 GitHub: https://github.com/Sowmyamaakam  
