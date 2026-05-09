@@ -53,7 +53,10 @@ further support. The app is still under development, and new features are being 
 - Notifications for mood tracking  
 
 ---
+## Screenshots
 
+### Landing Page 
+![Landing Page](https://github.com/Sowmyamaakam/PSYVANA/blob/f9c7613c3055b885b126d1f8109af0ceeacc7071/References/Main_Page.png)
 ---
 
 ##  Tech Stack
