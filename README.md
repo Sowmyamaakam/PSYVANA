@@ -1,4 +1,4 @@
-# 📱 Psyvana – Well-Being Assessment App (Work in Progress)
+# PSYVANA — Emotional Intelligence & Digital Wellbeing Companion
 
 Psyvana is a digital well-being app that helps users understand their emotional state using simple assessments. 
 Based on the results, the app provides activity recommendations or allows users to connect with a doctor for 
