@@ -57,8 +57,17 @@ further support. The app is still under development, and new features are being 
 
 ### Landing Page 
 ![Landing Page](https://github.com/Sowmyamaakam/PSYVANA/blob/f9c7613c3055b885b126d1f8109af0ceeacc7071/References/Main_Page.png)
----
 
+### Dashboard And Well-Being Assessment
+![Dashboard](https://github.com/Sowmyamaakam/PSYVANA/blob/f9c7613c3055b885b126d1f8109af0ceeacc7071/References/Dashboard_Assessment.png)
+
+### Prfessional_Help Page
+![Professional](https://github.com/Sowmyamaakam/PSYVANA/blob/f9c7613c3055b885b126d1f8109af0ceeacc7071/References/Professional_Page.png)
+
+###Recommendation_Activities
+![Recommendation](https://github.com/Sowmyamaakam/PSYVANA/blob/f9c7613c3055b885b126d1f8109af0ceeacc7071/References/Recommendatio_Activites.png)
+
+---
 ##  Tech Stack
 
 - **Android Studio (Java / XML)**
